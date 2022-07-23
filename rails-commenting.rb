@@ -6,10 +6,10 @@
 
 # FILE: app/controller/blog_posts_controller.rb
 
-# ---1)
+# ---1) This is a controller class from the model BlogPost that is being inherited from the application controller.
 class BlogPostsController < ApplicationController
   def index
-    # ---2)
+    # ---2) 
     @posts = BlogPost.all
   end
 
