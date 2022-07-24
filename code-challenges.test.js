@@ -38,7 +38,7 @@ describe("createSentence", () => {
 // Set parameter to peopleArray.
 // Use .map to iterate over the array. 
 //Use the .split method to separarte first and last name and set this to a variable called name.
-// Create a first name variable called firstLetter set equal to name[0] then use the .slice method from 0,1 with .toUpperCase to capitalize the first letter of the first name.
+// Create a variable called firstLetter set equal to name[0] then use the .slice method from 0,1 with .toUpperCase to capitalize the first letter of the first name.
 //Create a firstName variable set equal to name[0].slice(1) to return the rest of the letters of the first name.
 // Create a lastLetter variable equal to name[1] and repeat above step to capitalize the first letter of the last name.
 //Create a lastName variable set equal to name[1].slice(1) to return the rest of the letters of the last name.
